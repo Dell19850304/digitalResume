@@ -27,6 +27,10 @@ body{
   overflow: unset;
 }
 
+#menu {
+  margin-left: 45px;
+}
+
 
 #asideContainer {
   
@@ -61,11 +65,19 @@ footer {
 
 .footerIcons {
   width:3rem;
-  border-radius: 50%;
+  border-radius: 10%;
   margin:0.5rem;
-  height: 80px;
-  width:80px;
+  height: 100px;
+  width:130px;
+  object-fit:cover;
 }
+
+#contactHeading {
+  display:flex;
+  justify-content:center;
+ 
+}
+
 
 #contactsDecor {
   color: white;
@@ -73,6 +85,7 @@ footer {
   text-align: center;
   padding:5px;
   height:250px;
+  
 }
 
 #here:hover {
